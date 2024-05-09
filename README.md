@@ -11,14 +11,8 @@ ro.py is an asynchronous, object-oriented wrapper for the Roblox web API.
 ## Installation
 To install the latest stable version of ro.py, run the following command:
 ```
-python3 -m pip install roblox
+python3 -m pip install byfron
 ```
-
-To install the latest **unstable** version of ro.py, install [git-scm](https://git-scm.com/downloads) and run the following:
-```
-python3 -m pip install git+https://github.com/ro-py/ro.py.git
-```
-
 ## Support
 - Learn how to use ro.py in the docs: https://ro.py.jmk.gg/dev/tutorials/  
 - The [RoAPI Discord server](https://discord.gg/a69neqaNZ5) provides support for ro.py in the `#ro.py-support` channel.
