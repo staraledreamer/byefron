@@ -1,10 +1,3 @@
-"""
-
-Contains classes and functions related to the authenticated Roblox account.
-Not to be confused with users.py or the Account system.
-
-"""
-
 from __future__ import annotations
 from typing import TYPE_CHECKING
 
@@ -67,7 +60,7 @@ class AccountProvider:
             }
         )
     
-    async def get_description(self) -> string:
+    async def get_description(self) -> str:
         """
         Gets the authenticated user's description.
 
@@ -82,7 +75,7 @@ class AccountProvider:
     
     async def set_description(
             self,
-            description: string,
+            description: str,
     ):
         """
         Updates the authenticated user's description.
@@ -97,4 +90,3 @@ class AccountProvider:
                 "description": description
             }
         )
-    
